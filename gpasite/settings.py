@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
+
 import os
 from pathlib import Path
 
@@ -25,7 +26,10 @@ SECRET_KEY = 'django-insecure-=lbpx2$oeu@=71a&#z=f6pz4%gq0g3ft$h@$$le*l2s^11r^!&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+  '127.0.0.1'
+  'gpasite.herokuapp.com'
+  ]
 
 
 # Application definition
@@ -132,4 +136,4 @@ STATICFILES_DIRS = [
     BASE_DIR / "static"
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR , 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
