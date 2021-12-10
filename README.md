@@ -1,3 +1,3 @@
 ## GPA Site
 
-Link : http://gpasite.herokuapp.com/
+Link : https://gpasite.herokuapp.com/
