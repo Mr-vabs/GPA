@@ -1,3 +1,3 @@
 ## GPA Site
 
-Link : https://gpasite.herokuapp.com/
+Deployment : [deployed](https://gpasite.herokuapp.com/)
